@@ -1,0 +1,115 @@
+body {
+  background-image:url('../img/cover.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 4px #000;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 770px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 68px;
+}
+
+h2 {
+  /* will be shown with JS */
+  visibility: hidden;
+
+  display: inline-block;
+  border-radius: 3px;
+  padding: 5px 20px;
+  font-size: 30px;
+}
+
+.player-1 {
+  color: #0bb886;
+}
+
+.player-2 {
+  color: #860bb8;
+}
+
+.drop-buttons {
+  /* will be shown with JS */
+  visibility: hidden;
+
+  margin: 10px 0;
+  overflow: auto;
+}
+
+.button-wrapper {
+  float: left;
+  text-align: center;
+  width: 110px;
+  box-sizing: border-box;
+  background:
+}
+
+.drop-buttons button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.turn-player-1 button {
+  background-color: #0bb886;
+}
+
+.turn-player-1 button:hover {
+  background-color: #087153;
+  color: #fff;
+}
+
+.turn-player-2 button {
+  background-color: #860bb8;
+}
+
+.turn-player-2 button:hover {
+  background-color: #590979;
+  color: #fff;
+}
+
+.square {
+  float: left;
+  border: 1px solid white;
+  padding: 10px;
+  width: 110px;
+  height: 110px;
+  box-sizing: border-box;
+  background: url('http://www.pageresource.com/wallpapers/wallpaper/wooden-table-simple-wood-texture-cool_433670.jpg');
+}
+
+.slot {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #d5c4ae;
+}
+
+.checker-player-1 {
+  border-color: #0bb886;
+  background-color: #0bb886;
+}
+
+.checker-player-2 {
+  border-color: #860bb8;
+  background-color: #860bb8;
+}
+
+.n2 {
+  color: #860bb8;
+}
+.n1 {
+  color: #0bb886;
+}
